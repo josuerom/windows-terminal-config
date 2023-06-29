@@ -12,6 +12,14 @@
             "keys": "ctrl+c"
         },
         {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 3
+            },
+            "keys": "alt+4"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
@@ -22,75 +30,173 @@
         {
             "command": 
             {
+                "action": "switchToTab",
+                "index": 0
+            },
+            "keys": "alt+1"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 4
+            },
+            "keys": "alt+5"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "unbound",
+            "keys": "enter"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+a"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+comma"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+space"
+        },
+        {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 1
+            },
+            "keys": "alt+2"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 2
+            },
+            "keys": "alt+3"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+shift+q"
         }
     ],
+    "autoHideWindow": false,
+    "centerOnLaunch": true,
+    "confirmCloseAllTabs": false,
     "copyFormatting": "none",
-    "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "initialCols": 118,
-    "initialRows": 36,
+    "copyOnSelect": true,
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "disableAnimations": true,
+    "initialCols": 94,
+    "initialPosition": ",",
+    "initialRows": 44,
+    "language": "es-ES",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "backgroundImage": "C:\\Users\\jr3\\Pictures\\Wall\\Mac Walls\\12.png",
+            "backgroundImageOpacity": 0.3,
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "face": "JetBrains Mono",
+                "size": 11.0
+            },
+            "padding": "0",
+            "scrollbarState": "hidden"
+        },
         "list": 
         [
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "elevate": true,
-                "font": 
-                {
-                    "face": "mononoki Nerd Font",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell"
-            },
-            {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "elevate": false,
                 "font": 
                 {
-                    "face": "Cascadia Mono",
-                    "size": 11,
-                    "weight": "normal"
+                    "face": "JetBrainsMono Nerd Font",
+                    "size": 10.4
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Command Prompt"
+                "name": "S\u00edmbolo del sistema",
+                "useAcrylic": true
             },
             {
                 "elevate": true,
                 "font": 
                 {
-                    "face": "UbuntuMono Nerd Font",
-                    "size": 12,
-                    "weight": "normal"
+                    "face": "JetBrainsMono Nerd Font",
+                    "size": 11.0
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore",
-                "tabTitle": "PowerShell"
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "commandline": "D:\\Program Files\\Git\\bin\\bash.exe",
                 "font": 
                 {
-                    "face": "Cascadia Code",
-                    "size": 11
+                    "face": "Hack Nerd Font",
+                    "size": 11.0
                 },
-                "guid": "{b46243c2-a47f-40c3-9046-778d1587cfb2}",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
-                "icon": "D:\\Program Files\\Git\\git-icon.ico",
-                "name": "Git",
-                "tabTitle": "Git"
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "backgroundImage": "desktopWallpaper",
+                "backgroundImageOpacity": 0.0,
+                "colorScheme": "Campbell",
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Alpine",
+                "font": 
+                {
+                    "face": "CaskaydiaCove Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{8cd3bb5d-8dd7-468a-8521-cab13c4bb609}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Alpine",
+                "startingDirectory": "~"
             }
         ]
     },
@@ -281,6 +387,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-22.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -304,5 +433,55 @@
             "yellow": "#808000"
         }
     ],
-    "theme": "dark"
+    "showTabsInTitlebar": true,
+    "tabSwitcherMode": "mru",
+    "tabWidthMode": "titleLength",
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ],
+    "trimBlockSelection": false,
+    "trimPaste": false,
+    "useAcrylicInTabRow": false
 }
